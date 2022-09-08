@@ -23,7 +23,7 @@ services:
       mailman:
 
   mailman-web:
-    image: postorius
+    image: maxking/postorius:rolling
     container_name: mailman-web
     hostname: mailman-web
     depends_on:
